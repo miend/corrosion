@@ -89,7 +89,8 @@ governor = { version = "0.7.0" }
 quinn-proto = { git = "https://github.com/jeromegn/quinn", rev = "108f25a6" }
 
 [profile.release]
-debug = 1
+debug = false
+strip = true
 incremental = true
 
 [profile.dev]
